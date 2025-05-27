@@ -1,0 +1,201 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* Navbar styling (basic) */
+.navbar {
+  background-color: #e3f2fd; /* Light blue background */
+  padding: 0.5rem 1rem;
+  margin-bottom: 2rem; /* Add margin below navbar */
+  border-bottom: 1px solid #c1d9ec;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  color: #007bff;
+}
+.nav-link:hover {
+  color: #0056b3;
+}
+
+
+/* Product List specific styles */
+.product-list-container {
+  text-align: left;
+}
+
+.product-list-container h2 {
+  margin-bottom: 1.5rem;
+  color: #343a40;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.list-group-item {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+  padding: 15px;
+}
+
+.list-group-item h5 {
+  margin-bottom: 5px;
+  color: #007bff;
+}
+
+.list-group-item p {
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+.list-group-item small {
+  color: #6c757d;
+}
+
+.btn {
+  cursor: pointer;
+  padding: 0.375rem 0.75rem;
+  border-radius: 0.25rem;
+  text-decoration: none; /* For Link components styled as buttons */
+  display: inline-block; /* For Link components */
+  text-align: center;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff;
+}
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-warning {
+  color: #212529;
+  background-color: #ffc107;
+  border-color: #ffc107;
+}
+.btn-warning:hover{
+    background-color: #e0a800;
+}
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545;
+}
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745;
+}
+.btn-success:hover {
+    background-color: #1e7e34;
+}
+
+
+.me-2 {
+  margin-right: 0.5rem !important;
+}
+.mb-3 {
+  margin-bottom: 1rem !important;
+}
+
+
+/* Form styling */
+.product-form {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  text-align: left;
+}
+
+.product-form .form-label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.product-form .form-control {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 1rem; /* Space below input */
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  box-sizing: border-box; /* Important for width 100% */
+}
+
+.product-form .form-control.is-invalid {
+  border-color: #dc3545;
+}
+
+.product-form .invalid-feedback {
+  color: #dc3545;
+  font-size: 0.875em;
+  margin-top: 0.25rem;
+}
+
+.product-form textarea.form-control {
+  min-height: 80px;
+}
+
+.alert {
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.25rem;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+/* Align Add New Product button to the right or as a prominent block */
+.product-list-container .btn-primary.mb-3 {
+    display: block;
+    width: fit-content;
+    margin-left: auto; /* Pushes to the right if container allows */
+    margin-right: 0; /* Resets if it's a block */
+    margin-bottom: 1.5rem; /* More space below */
+}
+
+/* Center page titles */
+.container h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
